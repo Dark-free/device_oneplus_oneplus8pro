@@ -12,6 +12,9 @@ DEVICE_PATH := device/oneplus/instantnoodlep
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
