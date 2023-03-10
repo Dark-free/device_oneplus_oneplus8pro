@@ -14,7 +14,7 @@ fi
 
 set -e
 
-export DEVICE=instantnoodlep
+export DEVICE=oneplus8pro
 export DEVICE_COMMON=sm8250-common
 export VENDOR=oneplus
 

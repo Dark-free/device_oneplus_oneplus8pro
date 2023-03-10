@@ -25,20 +25,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom.ramdisk
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
     OPlusSystemUIResTarget
-
-# Platform
-TARGET_BOARD_PLATFORM := kona
-
-# PowerShare
-PRODUCT_PACKAGES += \
-    vendor.lineage.powershare@1.0-service.oplus
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
